@@ -1,4 +1,4 @@
-This is a plan maven project. Simply import as maven project. Java 11 compatible.
+This is a plain old style maven project. Simply import as maven project. Java 11 compatible.
 
 Instructions related to source code
 1) DefaultLoadBalancer.java is the implementation of ILoadBalancer. ``pingIntervalMills`` field is used to configure heartbeat interval in milliseconds. ``markServerDown`` method is used to mark a ServiceProvider as `healthy` and `unhealthy` explicitly.
